@@ -1,0 +1,58 @@
+.navcard{
+    height: 51px;
+}
+.navbarbrand{
+    display: contents;
+}
+.button{
+    height: 51px;
+}
+.extra{
+    display: none;
+}
+
+@media   (min-width:890px) and (max-width:1624px){
+ 
+    .button{
+        height: 51px;
+    }
+       
+}
+
+
+
+
+@media   (min-width:410px) and (max-width:768px){
+    .navbarbrand{
+        display: none;
+}
+.extra{
+ display: contents;
+}
+.button{
+    height: 51px;
+    width: 51px;
+}
+.resolution{
+    /* margin-left: 68px; */
+    height: 51px;
+}
+}
+@media   (min-width:769px) and (max-width:1214px){
+     /* .navbarbrand{
+        display: none; 
+} */
+.extra{
+ display: contents;
+
+}
+.resolution{
+    margin-left: 148px;
+    height: 51px;
+}
+}
+
+.resolution{
+    height: 51px;
+
+}
